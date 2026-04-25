@@ -67,3 +67,11 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Generated data (created by scripts/export_mlp.py — not committed)
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
